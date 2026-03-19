@@ -9,27 +9,41 @@ body{
     color: rgb(31, 30, 28);
 }
 
+img{
+    width: 180px;
+    padding: 5px 1px;
+    border-radius: 20px;
+    }
 
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    text-align: center;
     box-shadow: 2px 0 10px;
 }
 
 header{
     background-color: rgb(241, 206, 149);
     color: rgb(0, 0, 0);
-    text-align: center;
+    text-align: left;
     padding: 30px 15px;
     }
 
+main{
+    max-width: 400px;
+    margin-left: 230px;
+    margin-top: -350px;
+    
+}
 .container {
     max-width: 800px;
     background-color: rgb(255, 255, 255);
+    text-align: left;
     margin: auto;
     padding:10px 10px;
     border-radius: 8px;
     box-shadow: 0 0 30px;
     }
+
 
 h2{
     color: rgb(174, 67, 220);
@@ -41,5 +55,38 @@ h2{
     margin-top: 20px;
     border-radius: 10px;
     text-decoration: none;
-    
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 30px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+nav{
+    text-decoration: none;
+    color: blueviolet;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+.hero {
+    min-height: 150vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(164, 80, 243);
+    text-align: center;
+    padding: 20px 10px;    
 }
