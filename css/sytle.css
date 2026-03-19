@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(241, 206, 149);
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(31, 30, 28);
+}
+
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    box-shadow: 2px 0 10px;
+}
+
+header{
+    background-color: rgb(241, 206, 149);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 30px 15px;
+    }
+
+.container {
+    max-width: 800px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    padding:10px 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 30px;
+    }
+
+h2{
+    color: rgb(174, 67, 220);
+}
+
+.botao {
+    background-color: aliceblue;
+    padding: 5px 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    
+}
