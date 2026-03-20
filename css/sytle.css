@@ -3,14 +3,14 @@
 }
 
 body{
-    background-color: rgb(241, 206, 149);
+    background-color: rgb(195, 121, 247);
     margin: auto;
     font-family: 'Times New Roman', Times, serif;
     color: rgb(31, 30, 28);
 }
 
 img{
-    width: 180px;
+    width: 300px;
     padding: 5px 1px;
     border-radius: 20px;
     }
@@ -18,61 +18,70 @@ img{
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
     text-align: center;
-    box-shadow: 2px 0 10px;
+    margin: auto;
+    padding: 50px 50px;
+    border-radius: 20px;
+    background-color: rgb(177, 93, 255);
 }
 
 header{
-    background-color: rgb(241, 206, 149);
+    background-color: rgb(166, 41, 239);
     color: rgb(0, 0, 0);
     text-align: left;
     padding: 30px 15px;
     }
 
 main{
-    max-width: 400px;
+    max-width: 4000px;
     margin-left: 230px;
     margin-top: -350px;
-    
+    font-size: 30px;
 }
+
 .container {
-    max-width: 800px;
+    max-width: 1000px;
     background-color: rgb(255, 255, 255);
     text-align: left;
-    margin: auto;
-    padding:10px 10px;
-    border-radius: 8px;
+    margin: 90px;
+    padding:30px 30px;
+    border-radius: 20px;
     box-shadow: 0 0 30px;
     }
 
-
 h2{
-    color: rgb(174, 67, 220);
+    color: rgb(0, 0, 0);
 }
 
 .botao {
-    background-color: aliceblue;
-    padding: 5px 10px;
-    margin-top: 20px;
+    background-color: rgb(140, 46, 211);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    margin-top: 10px;
     border-radius: 10px;
     text-decoration: none;
+    box-shadow: 5px 15px 40px;
+    font-size: 70px;
 }
 
 .topo {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 85px;
 }
 
 .logo{
-    font-size: 30px;
-    color: aliceblue;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
     font-weight: bold;
 }
 
-nav{
+nav a {
     text-decoration: none;
-    color: blueviolet;
-    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    margin-left: 50px;
     font-weight: 500;
 }
 
@@ -81,12 +90,19 @@ nav a:hover{
 }
 
 .hero {
-    min-height: 150vh;
-    display: flex;
+    min-height: 120vh;
+    font-size: 40px;
+    display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: rgb(164, 80, 243);
+    color: rgb(0, 0, 0);
     text-align: center;
-    padding: 20px 10px;    
+    padding: 360px 0px 400px;   
+    margin-right: 200px;
+}
+
+.hero p{ 
+    box-shadow: 13px 15px 20px;
+    font-size: 50px;
 }
