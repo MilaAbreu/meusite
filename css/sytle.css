@@ -7,12 +7,15 @@ body{
     margin: auto;
     font-family: 'Times New Roman', Times, serif;
     color: rgb(31, 30, 28);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 img{
     width: 300px;
-    padding: 5px 1px;
-    border-radius: 20px;
+    margin-top: 10px;
+    border-radius: 30px;
     }
 
 h1{
@@ -31,10 +34,23 @@ header{
     padding: 30px 15px;
     }
 
-main{
+main .hero{
     display: flex;
-    margin-left: 230px;
-    margin-top: -650px;
+    justify-content: center;
+    position: absolute;
+    top: -530px;
+    left: -40px;
+    width: 1500px;
+    font-size: 30px;
+}
+
+ main{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 90px;
+    left: 250px;
+    width: 1000px;
     font-size: 30px;
 }
 
@@ -48,19 +64,36 @@ main{
     box-shadow: 0 0 30px;
     }
 
-h2{
-    color: rgb(0, 0, 0);
+ul{
+    margin-top: -30px;
+
 }
 
-.botao {
+h2{
+    color: rgb(0, 0, 0);
+    margin-top: auto;
+}
+
+.hero .botao {
     background-color: rgb(140, 46, 211);
     color: rgb(255, 255, 255);
     padding: 10px 20px;
     margin-top: 10px;
     border-radius: 10px;
     text-decoration: none;
-    box-shadow: 5px 15px 40px;
     font-size: 50px;
+    box-shadow: 10px 15px 50px rgb(185, 80, 237);
+}
+
+.botao {
+    background-color: rgb(140, 46, 211);
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    margin: 150px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 35px;
+    box-shadow: 10px 15px 50px rgb(127, 69, 136);
 }
 
 .topo {
@@ -68,6 +101,7 @@ h2{
     justify-content: space-between;
     align-items: center;
     padding: 85px;
+    color: aliceblue;
 }
 
 .logo{
@@ -96,13 +130,26 @@ nav a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
-    padding: 360px 0px 400px;   
-    margin-right: 200px;
+    padding: 700px 200px;   
 }
 
 .hero p{ 
-    box-shadow: 13px 15px 20px;
+    box-shadow: 5px 5px 10px rgb(188, 101, 228);
+    text-shadow: 0px 2px 5px ;
     font-size: 50px;
+}
+
+footer {
+    background-color: blueviolet; 
+    text-align: center;
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    flex-shrink: 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
